@@ -5,44 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Participantes</title>
-    <!--Internal Style Sheet-->
-    <style type="text/css">
-        div{
-            display: flex;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            justify-content: center;
-            margin: 0 auto;
-            width: 80%;
-        }
-
-        section{
-            margin-top: 30px;
-            text-align: center;
-            width: 300px;   
-        }
-        
-        .btn-start{
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
     <script defer src="index.js"></script>
 </head>
 <body>
     <div>
         <section>
             <h1>Número de participantes</h1>
-            <span id="num-participants">0</span>
+            <span id="num_participants">0</span>
         </section>
         <section>
             <h1>Idade média dos participantes</h1>
-            <span id="avarage-age">0</span>
+            <span id="avarage_age">0</span>
         </section>
         <section>
             <h1>Número de satisfeitos</h1>
-            <span id="num-satisfied" >0</span>
+            <span id="num_satisfied" >0</span>
         </section>
     </div>
-    <div class="btn-start">
+    <div class="btn_start">
         <button onclick="start()">Participar</button>
     </div>
 </body>

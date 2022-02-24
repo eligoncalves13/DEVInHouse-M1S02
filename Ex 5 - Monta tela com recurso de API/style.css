@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;   
+}
+
+.section1 {
+    float: left;
+    margin: 15px;
+    width: 45%;
+}
+
+.section2 {
+    float: right;
+    margin: 15px;
+    width: 45%;    
+}

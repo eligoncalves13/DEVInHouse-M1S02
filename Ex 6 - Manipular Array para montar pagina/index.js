@@ -1,4 +1,3 @@
-//Failed
 function initMap() {
   fetch(`https://amapalanches.com/includes/v1/getTodas.php`)
     .then(function(response){ 

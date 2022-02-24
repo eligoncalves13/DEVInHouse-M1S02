@@ -1,6 +1,6 @@
-let numParticipants = document.querySelector('#num-participants');
-let numSatisfied = document.querySelector('#num-satisfied');
-let avarageAge = document.querySelector('#avarage-age');
+let numParticipants = document.querySelector('#num_participants');
+let numSatisfied = document.querySelector('#num_satisfied');
+let avarageAge = document.querySelector('#avarage_age');
 let sumAge = 0;
 
 function start(){
@@ -24,7 +24,7 @@ function start(){
         let numSatisfiedValue = numSatisfied.innerHTML;
         numSatisfiedValue++;
         numSatisfied.innerHTML = numSatisfiedValue;
-    }else{
-        console.log("Não incluso na lista de satisfeitos!")
+    } else{
+        console.log("Não incluso na lista de satisfeitos!");
     }
 }
